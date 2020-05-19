@@ -88,9 +88,19 @@
 
             <nav class="navbar-nav d-none d-md-block" style="font-color:white;color:white;">
               <ul style="font-color:white;color:white;">
-                <li>
-                  <a href="about-us.html" class="nav-link dropdown-toggle" id="dropdownMenuStudio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-text="About Us" style="font-color:white;color:white;">About Us</a>
-                  
+                <li class="dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" id="dropdownMenuWork" data-text="About Us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-color:white;color:white;">About Us</a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuWork">
+                    <div class="row">
+                      <div class="col-sm-6">
+                        <div class="dropdown-menu-title" style="font-color:black;color:black;">What we do?</div>
+                        <ul>
+                          <li><a href="work-grid.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="About Us" style="font-color:black;color:black;">About Us</a></li>
+                          <li><a href="/services" class="animsition-link" data-animsition-out-class="fade-out" data-text="Our Services" style="font-color:black;color:black;">Our Services</a></li>
+                        </ul>
+                      </div>
+
+                  </div>
                 </li>
                 <li class="dropdown">
                   <a href="#" class="nav-link dropdown-toggle" id="dropdownMenuWork" data-text="works" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-color:white;color:white;">works</a>
@@ -99,9 +109,9 @@
                       <div class="col-sm-6">
                         <div class="dropdown-menu-title" style="font-color:black;color:black;">Works</div>
                         <ul>
-                          <li><a href="work-grid.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Grid" style="font-color:black;color:black;">Patent</a></li>
-                          <li><a href="work-masonry.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Masonry" style="font-color:black;color:black;">Research</a></li>
-                          <li><a href="work-metro.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Metro" style="font-color:black;color:black;">Product</a></li>
+                          <li><a href="work-grid.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Patent" style="font-color:black;color:black;">Patent</a></li>
+                          <li><a href="work-masonry.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Research" style="font-color:black;color:black;">Research</a></li>
+                          <li><a href="work-metro.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Product" style="font-color:black;color:black;">Product</a></li>
                         </ul>
                       </div>
                       
@@ -159,7 +169,7 @@
                   <div class="collapse" id="menuWorks" data-parent="#accordion">
                     <ul>
                       <li><a href="about-me.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="About Us">About Us</a></li>
-                      <li><a href="career-detail.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Our Works">Our Services</a></li>
+                      <li><a href="/services" class="animsition-link" data-animsition-out-class="fade-out" data-text="Our Services">Our Services</a></li>
                       <!--li><a href="work-metro.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Metro">Metro</a></li>
                       <li><a href="work-listing.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Listing">Listing</a></li>
                       <li><a href="work-carousel.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Carousel">Carousel</a></li>
@@ -174,16 +184,16 @@
                 <li><a data-text="Our Work" data-toggle="collapse" href="#menuNews" role="button" aria-expanded="false" aria-controls="menuNews" style="color:black">Our Work</a>
                   <div class="collapse" id="menuNews" data-parent="#accordion">
                     <ul>
-                      <li><a href="news-grid.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Grid">Research</a></li>
-                      <li><a href="news-masonry.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Masonry">Patent</a></li>
-                      <li><a href="news-with-sidebar.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="News with sidebar">Products</a></li>
+                      <li><a href="news-grid.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Research">Research</a></li>
+                      <li><a href="news-masonry.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Patent">Patent</a></li>
+                      <li><a href="news-with-sidebar.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Products">Products</a></li>
                       <!--li><a href="single-post-no-sidebar.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Single Post No Sidebar">Single Post No Sidebar</a></li>
                       <li><a href="single-post-with-sidebar.html" class="animsition-link" data-animsition-out-class="fade-out" data-text="Single Post With Sidebar">Single Post With Sidebar</a></li-->
                     </ul>
                   </div>
                 </li>
-                <li ><a data-text="Flag Bearers" data-toggle="collapse" href="#menuStudio" role="button" aria-expanded="true" aria-controls="menuStudio" style="color:black">Flag Bearers</a>
-                  <div class="collapse show" id="menuStudio" data-parent="#accordion">
+                <li ><a data-text="Flag Bearers" data-toggle="collapse" href="#menuStudio" role="button" aria-expanded="false" aria-controls="menuStudio" style="color:black">Flag Bearers</a>
+                  <div class="collapse" id="menuStudio" data-parent="#accordion">
                     <ul>
                       
                       <li class="#"><a href="/team" class="animsition-link" data-animsition-out-class="fade-out" data-text="Our team">Our team</a></li>

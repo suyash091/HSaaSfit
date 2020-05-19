@@ -15,10 +15,14 @@ def hindi():
 def team():
     return render_template('team.html')
 
+@app.route("/services")
+def services():
+    return render_template('services.html')
+
 @app.errorhandler(404) 
 def not_found(e):
   return render_template("coming-soon.html") 
 
 
 if __name__=='__main__':
-    app.run()
+    app.run(debug=True)
